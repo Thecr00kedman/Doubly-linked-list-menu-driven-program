@@ -136,11 +136,14 @@ int main(){
             cin>>pos;
 	        deleteatanypos(pos);
             break;
-	default: "error! Wrong choice";   
+    case 8: exit(0);
+    
+    default: "Error! Wrong choice"<<"\n";   
      
 } 
 
 }
+	return 0;
 
 }
 
